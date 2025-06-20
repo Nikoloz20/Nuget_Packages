@@ -133,6 +133,13 @@ Welcome to the **Nuget_Packages**. Below is a list of custom-made packages.
 
 ---
 
+### 19. **RabbitMQ.Client ** 🟠
+   - **Version**: 7.1.2
+   - **Description**:  
+     A .NET client library for interacting with RabbitMQ, implementing the Advanced Message Queuing Protocol (AMQP). Enables applications to publish and consume messages using message queues, supporting features like reliable delivery, routing, message acknowledgments, and exchange types. Commonly used in microservices for building asynchronous, decoupled, and event-driven architectures.
+
+---
+
 ## 📋 Summary of Versions
 
 Here are the versions of the installed packages:
@@ -155,6 +162,7 @@ Here are the versions of the installed packages:
 - **Hangfire.Core**: 1.8.18
 - **Hangfire.SqlServer**: 1.8.18
 - **Microsoft.Extensions.Caching.StackExchangeRedis**: 8.0.0
+- **RabbitMQ.Client**: 7.1.2
 
 ---
 
@@ -163,4 +171,4 @@ Here are the versions of the installed packages:
 To add these packages to your project, you can use the following **NuGet** commands:
 
 ```bash
-dotnet add package Nuget_Packages --version 6.0.0
+dotnet add package Nuget_Packages --version 7.0.0
